@@ -1,0 +1,1087 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tray Digita\n"
+"POT-Creation-Date: 2022-09-16 14:40+0700\n"
+"PO-Revision-Date: 2022-09-16 14:17+0700\n"
+"Last-Translator: \n"
+"Language-Team: Tray Digita\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: ;__;_e;esc_attr_e;esc_attr__;esc_html__;esc_html_e;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.css\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: languages\n"
+
+#: blocks/amp-slider/block.js:23
+msgid "Amp Slider"
+msgstr ""
+
+#: blocks/amp-slider/block.js:31
+msgid "Categories"
+msgstr ""
+
+#: blocks/amp-slider/block.js:38
+msgid "Tags"
+msgstr ""
+
+#: blocks/amp-slider/block.js:46 blocks/popular-posts/block.js:35
+#: blocks/related-posts/block.js:40
+msgid "Total Posts"
+msgstr ""
+
+#: blocks/amp-slider/block.js:54 blocks/popular-posts/block.js:43
+#: blocks/related-posts/block.js:48 inc/customizer/options.php:37
+#: inc/customizer/options.php:283 inc/customizer/options.php:403
+#: inc/customizer/options.php:569
+msgid "Show Thumbnail"
+msgstr ""
+
+#: blocks/amp-slider/block.js:58 blocks/amp-slider/block.js:73
+#: blocks/amp-slider/block.js:88 blocks/amp-slider/block.js:103
+#: blocks/popular-posts/block.js:47 blocks/popular-posts/block.js:62
+#: blocks/popular-posts/block.js:77 blocks/popular-posts/block.js:92
+#: blocks/related-posts/block.js:52 blocks/related-posts/block.js:67
+#: blocks/related-posts/block.js:82 inc/customizer/options.php:20
+#: inc/customizer/options.php:32 inc/customizer/options.php:44
+#: inc/customizer/options.php:56 inc/customizer/options.php:77
+#: inc/customizer/options.php:113 inc/customizer/options.php:125
+#: inc/customizer/options.php:205 inc/customizer/options.php:217
+#: inc/customizer/options.php:229 inc/customizer/options.php:241
+#: inc/customizer/options.php:253 inc/customizer/options.php:290
+#: inc/customizer/options.php:302 inc/customizer/options.php:314
+#: inc/customizer/options.php:342 inc/customizer/options.php:354
+#: inc/customizer/options.php:366 inc/customizer/options.php:423
+#: inc/customizer/options.php:435 inc/customizer/options.php:447
+#: inc/customizer/options.php:459 inc/customizer/options.php:471
+#: inc/customizer/options.php:483 inc/customizer/options.php:502
+#: inc/customizer/options.php:564 inc/customizer/options.php:576
+#: inc/customizer/options.php:604 inc/customizer/options.php:785
+#: inc/customizer/options.php:797 inc/customizer/options.php:809
+#: inc/customizer/options.php:821 inc/customizer/options.php:856
+msgid "Yes"
+msgstr ""
+
+#: blocks/amp-slider/block.js:62 blocks/amp-slider/block.js:77
+#: blocks/amp-slider/block.js:92 blocks/amp-slider/block.js:107
+#: blocks/popular-posts/block.js:51 blocks/popular-posts/block.js:66
+#: blocks/popular-posts/block.js:81 blocks/popular-posts/block.js:96
+#: blocks/related-posts/block.js:56 blocks/related-posts/block.js:71
+#: blocks/related-posts/block.js:86 inc/customizer/options.php:21
+#: inc/customizer/options.php:33 inc/customizer/options.php:45
+#: inc/customizer/options.php:57 inc/customizer/options.php:78
+#: inc/customizer/options.php:114 inc/customizer/options.php:126
+#: inc/customizer/options.php:206 inc/customizer/options.php:218
+#: inc/customizer/options.php:230 inc/customizer/options.php:242
+#: inc/customizer/options.php:254 inc/customizer/options.php:291
+#: inc/customizer/options.php:303 inc/customizer/options.php:315
+#: inc/customizer/options.php:343 inc/customizer/options.php:355
+#: inc/customizer/options.php:367 inc/customizer/options.php:424
+#: inc/customizer/options.php:436 inc/customizer/options.php:448
+#: inc/customizer/options.php:460 inc/customizer/options.php:472
+#: inc/customizer/options.php:484 inc/customizer/options.php:503
+#: inc/customizer/options.php:565 inc/customizer/options.php:577
+#: inc/customizer/options.php:605 inc/customizer/options.php:786
+#: inc/customizer/options.php:798 inc/customizer/options.php:810
+#: inc/customizer/options.php:822 inc/customizer/options.php:857
+msgid "No"
+msgstr ""
+
+#: blocks/amp-slider/block.js:69
+msgid "Show Title"
+msgstr ""
+
+#: blocks/amp-slider/block.js:84 blocks/popular-posts/block.js:58
+#: blocks/related-posts/block.js:63
+msgid "Show Main Category"
+msgstr ""
+
+#: blocks/amp-slider/block.js:98 blocks/popular-posts/block.js:87
+#: blocks/related-posts/block.js:77 inc/customizer/options.php:106
+#: inc/customizer/options.php:335 inc/customizer/options.php:440
+#: inc/customizer/options.php:557
+msgid "Show Date"
+msgstr ""
+
+#: blocks/amp-slider/block.js:113 blocks/related-posts/block.js:92
+msgid "Order By"
+msgstr ""
+
+#: blocks/amp-slider/block.js:118 blocks/related-posts/block.js:97
+msgid "Date"
+msgstr ""
+
+#: blocks/amp-slider/block.js:122 blocks/related-posts/block.js:101
+msgid "ID"
+msgstr ""
+
+#: blocks/amp-slider/block.js:126 blocks/related-posts/block.js:105
+msgid "Title"
+msgstr ""
+
+#: blocks/amp-slider/block.js:130 blocks/related-posts/block.js:109
+#: inc/classes/Law_Lib_Meta_Query.php:351
+msgid "Author"
+msgstr ""
+
+#: blocks/amp-slider/block.js:136 blocks/related-posts/block.js:115
+msgid "Sort By"
+msgstr ""
+
+#: blocks/amp-slider/block.js:141 blocks/related-posts/block.js:120
+msgid "Descending"
+msgstr ""
+
+#: blocks/amp-slider/block.js:145 blocks/related-posts/block.js:124
+msgid "Ascending"
+msgstr ""
+
+#: blocks/amp-slider/block.js:149 blocks/related-posts/block.js:128
+msgid "Random"
+msgstr ""
+
+#: blocks/amp-slider/block.js:215 blocks/related-posts/block.js:172
+msgid "Related Post Setting"
+msgstr ""
+
+#: blocks/popular-posts/block.js:21
+msgid "Popular Post"
+msgstr ""
+
+#: blocks/popular-posts/block.js:27
+msgid "Day Range"
+msgstr ""
+
+#: blocks/popular-posts/block.js:73
+msgid "Show Total Views"
+msgstr ""
+
+#: blocks/popular-posts/block.js:116
+msgid "Popular Post Setting"
+msgstr ""
+
+#: blocks/related-posts/block.js:24
+msgid "Related Post"
+msgstr ""
+
+#: blocks/related-posts/block.js:32 inc/customizer/options.php:371
+msgid "Exclude Categories"
+msgstr ""
+
+#: header.php:15
+msgid "Skip to content"
+msgstr ""
+
+#: inc/classes/Amp/Law_Lib_Amp_Carousel_List.php:348
+msgid "Selector"
+msgstr ""
+
+#: inc/classes/Amp/Law_Lib_Amp_Carousel_List.php:375
+#: inc/classes/Amp/Law_Lib_Amp_Carousel_List.php:394
+msgid "Navigation"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:344
+msgid "Archives"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:347
+msgid "Category"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:349
+msgid "Tag"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:353
+msgid "Year"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:355
+msgid "Month"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:357
+msgid "Day"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:359 searchform.php:20
+#: templates/site/site-mobile-search.php:100
+msgid "Search"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:362
+msgid "Asides"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:364
+msgid "Galleries"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:366
+msgid "Images"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:368
+msgid "Videos"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:370
+msgid "Quotes"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:372
+msgid "Links"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:374
+msgid "Statuses"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:376
+msgid "Audio"
+msgstr ""
+
+#: inc/classes/Law_Lib_Meta_Query.php:378
+msgid "Chats"
+msgstr ""
+
+#: inc/classes/Law_Lib_Mobile_Menu_Walker.php:111
+msgid "Search Section"
+msgstr ""
+
+#: inc/classes/Law_Lib_Post_Rest.php:27 inc/classes/Law_Lib_Post_Rest.php:47
+msgid "Unique identifier for the post."
+msgstr ""
+
+#: inc/classes/Law_Lib_Post_Rest.php:69
+msgid "You need to define an id to set views."
+msgstr ""
+
+#: inc/classes/Law_Lib_Post_Rest.php:76
+msgid "Invalid post verification."
+msgstr ""
+
+#: inc/classes/Law_Lib_Post_Rest.php:107
+msgid "Invalid post ID."
+msgstr ""
+
+#: inc/classes/Law_Lib_Post_Rest.php:400
+msgid "You need to define a search term to order by relevance."
+msgstr ""
+
+#: inc/classes/Law_Lib_Post_Rest.php:409
+msgid "You need to define an include parameter to order by include."
+msgstr ""
+
+#: inc/classes/Law_Lib_Post_Rest.php:589
+msgid "The page number requested is larger than the number of pages available."
+msgstr ""
+
+#: inc/classes/Law_Lib_Resolver.php:92
+msgid "Image Attachment"
+msgstr ""
+
+#: inc/classes/Law_Lib_Sitemap_Renderer.php:95
+#, php-format
+msgid "Fields other than %s are not currently supported for sitemaps."
+msgstr ""
+
+#: inc/component.php:14 templates/site/site-header.php:122
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: inc/customizer/options.php:9 templates/site/site-header.php:101
+msgid "Homepage"
+msgstr ""
+
+#: inc/customizer/options.php:13
+msgid "Show Blog Posts"
+msgstr ""
+
+#: inc/customizer/options.php:14
+msgid "Show blog posts area below homepage section."
+msgstr ""
+
+#: inc/customizer/options.php:25
+msgid "Enable Blog Filtering"
+msgstr ""
+
+#: inc/customizer/options.php:26
+msgid "Filtering blog posts. Disable it when you want show normal blog posts. (below setting will be ignored)."
+msgstr ""
+
+#: inc/customizer/options.php:38 inc/customizer/options.php:284
+msgid "Show blog posts thumbnail."
+msgstr ""
+
+#: inc/customizer/options.php:49 inc/customizer/options.php:295
+#: inc/customizer/options.php:428
+msgid "Show Category"
+msgstr ""
+
+#: inc/customizer/options.php:50 inc/customizer/options.php:296
+msgid "Show blog posts category."
+msgstr ""
+
+#: inc/customizer/options.php:61
+msgid "Blog Categories"
+msgstr ""
+
+#: inc/customizer/options.php:62
+msgid "Include only certain categories."
+msgstr ""
+
+#: inc/customizer/options.php:70 inc/customizer/options.php:307
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/customizer/options.php:71 inc/customizer/options.php:308
+msgid "Show blog posts excerpt."
+msgstr ""
+
+#: inc/customizer/options.php:82
+msgid "Blog Excerpt Length"
+msgstr ""
+
+#: inc/customizer/options.php:83
+msgid "Excerpt length for blog loop."
+msgstr ""
+
+#: inc/customizer/options.php:98 inc/customizer/options.php:327
+msgid "Text After Excerpt"
+msgstr ""
+
+#: inc/customizer/options.php:99 inc/customizer/options.php:328
+msgid "Text inserted after excerpt."
+msgstr ""
+
+#: inc/customizer/options.php:107 inc/customizer/options.php:336
+msgid "Show blog posts date."
+msgstr ""
+
+#: inc/customizer/options.php:118 inc/customizer/options.php:347
+#: inc/customizer/options.php:452
+msgid "Show Author"
+msgstr ""
+
+#: inc/customizer/options.php:119 inc/customizer/options.php:348
+msgid "Show blog posts author."
+msgstr ""
+
+#: inc/customizer/options.php:130
+msgid "Initial Post Count"
+msgstr ""
+
+#: inc/customizer/options.php:131
+msgid "Show blog initial list posts count on blog section."
+msgstr ""
+
+#: inc/customizer/options.php:146 inc/customizer/options.php:154
+#: inc/customizer/options.php:380 inc/customizer/options.php:388
+#: inc/customizer/options.php:581 inc/customizer/options.php:589
+msgid "Load More Text"
+msgstr ""
+
+#: inc/customizer/options.php:147 inc/customizer/options.php:155
+#: inc/customizer/options.php:381 inc/customizer/options.php:389
+#: inc/customizer/options.php:582 inc/customizer/options.php:590
+msgid "Load more text on ajax search."
+msgstr ""
+
+#: inc/customizer/options.php:149 inc/customizer/options.php:383
+#: inc/customizer/options.php:584 inc/hooks/components.php:219
+#: inc/hooks/components.php:263 templates/site/site-mobile-search.php:54
+msgid "Load More"
+msgstr ""
+
+#: inc/customizer/options.php:157 inc/customizer/options.php:391
+#: inc/customizer/options.php:592 templates/components/search-submitting.php:11
+msgid "Loading..."
+msgstr ""
+
+#: inc/customizer/options.php:162
+msgid "Ajax List Item"
+msgstr ""
+
+#: inc/customizer/options.php:163 inc/customizer/options.php:542
+msgid "How much list to show per ajax request."
+msgstr ""
+
+#: inc/customizer/options.php:181
+msgid "Global Settings"
+msgstr ""
+
+#: inc/customizer/options.php:185
+msgid "Disable Texturize"
+msgstr ""
+
+#: inc/customizer/options.php:186 inc/customizer/options.php:199
+msgid "Show breadcrumb on post section."
+msgstr ""
+
+#: inc/customizer/options.php:192
+msgid "All"
+msgstr ""
+
+#: inc/customizer/options.php:193
+msgid "Title Only"
+msgstr ""
+
+#: inc/customizer/options.php:194
+msgid "Content Only"
+msgstr ""
+
+#: inc/customizer/options.php:198
+msgid "Show Breadcrumb Post"
+msgstr ""
+
+#: inc/customizer/options.php:210
+msgid "Show Breadcrumb Page"
+msgstr ""
+
+#: inc/customizer/options.php:211
+msgid "Show breadcrumb on page section."
+msgstr ""
+
+#: inc/customizer/options.php:222
+msgid "Show Breadcrumb Archive & Search"
+msgstr ""
+
+#: inc/customizer/options.php:223
+msgid "Show breadcrumb on archive section."
+msgstr ""
+
+#: inc/customizer/options.php:234
+msgid "Show Archive Title"
+msgstr ""
+
+#: inc/customizer/options.php:235
+msgid "Show description on archive title."
+msgstr ""
+
+#: inc/customizer/options.php:246
+msgid "Show Archive & Search Description"
+msgstr ""
+
+#: inc/customizer/options.php:247
+msgid "Show description on archive section."
+msgstr ""
+
+#: inc/customizer/options.php:258
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/options.php:261
+msgid "Footer Copyright (HTML Support)"
+msgstr ""
+
+#: inc/customizer/options.php:264
+msgid "For Year"
+msgstr ""
+
+#: inc/customizer/options.php:265
+msgid "For Home URL"
+msgstr ""
+
+#: inc/customizer/options.php:266
+#, php-format
+msgid "For %s"
+msgstr ""
+
+#: inc/customizer/options.php:267
+msgid "For Site Name"
+msgstr ""
+
+#: inc/customizer/options.php:279
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/customizer/options.php:319
+msgid "Archive Excerpt Length"
+msgstr ""
+
+#: inc/customizer/options.php:320
+msgid "Excerpt length for content loop."
+msgstr ""
+
+#: inc/customizer/options.php:359
+msgid "Ajax Load More"
+msgstr ""
+
+#: inc/customizer/options.php:360
+msgid "Show as ajax load more pagination."
+msgstr ""
+
+#: inc/customizer/options.php:372
+msgid "Exclude certain categories."
+msgstr ""
+
+#: inc/customizer/options.php:399
+msgid "Blog Post Settings"
+msgstr ""
+
+#: inc/customizer/options.php:404
+msgid "Show blog post thumbnail on post."
+msgstr ""
+
+#: inc/customizer/options.php:410 inc/customizer/options.php:833
+#: inc/hooks/customizer.php:46
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/options.php:411
+msgid "Force Enable"
+msgstr ""
+
+#: inc/customizer/options.php:412
+msgid "Force Disable"
+msgstr ""
+
+#: inc/customizer/options.php:416
+msgid "Show Header Meta"
+msgstr ""
+
+#: inc/customizer/options.php:417
+msgid "Show blog post meta."
+msgstr ""
+
+#: inc/customizer/options.php:429
+msgid "Show blog post category."
+msgstr ""
+
+#: inc/customizer/options.php:441
+msgid "Show blog post date."
+msgstr ""
+
+#: inc/customizer/options.php:453
+msgid "Show blog post author."
+msgstr ""
+
+#: inc/customizer/options.php:464
+msgid "Show Tags"
+msgstr ""
+
+#: inc/customizer/options.php:465
+msgid "Show blog post tag."
+msgstr ""
+
+#: inc/customizer/options.php:476
+msgid "Show Author Bio"
+msgstr ""
+
+#: inc/customizer/options.php:477
+msgid "Show blog post author bio."
+msgstr ""
+
+#: inc/customizer/options.php:491
+msgid "Search Query"
+msgstr ""
+
+#: inc/customizer/options.php:495
+msgid "Exclude Page From Search"
+msgstr ""
+
+#: inc/customizer/options.php:496
+msgid "Enable post type page from search result."
+msgstr ""
+
+#: inc/customizer/options.php:507
+msgid "Search Exclude Categories"
+msgstr ""
+
+#: inc/customizer/options.php:508 inc/customizer/options.php:517
+msgid "Exclude certain categories to prevent show on ajax search."
+msgstr ""
+
+#: inc/customizer/options.php:516
+msgid "Mobile Ajax Exclude Categories"
+msgstr ""
+
+#: inc/customizer/options.php:525
+msgid "Number First Posts"
+msgstr ""
+
+#: inc/customizer/options.php:526
+msgid "How much list to show on first request."
+msgstr ""
+
+#: inc/customizer/options.php:541
+msgid "Number To Show Posts"
+msgstr ""
+
+#: inc/customizer/options.php:558
+msgid "Show date on ajax search."
+msgstr ""
+
+#: inc/customizer/options.php:570
+msgid "Show thumbnail on ajax search."
+msgstr ""
+
+#: inc/customizer/options.php:597
+msgid "Enable Search Microdata"
+msgstr ""
+
+#: inc/customizer/options.php:598
+msgid "Enable microdata search on single page. If rank math exists, will handle by rank math."
+msgstr ""
+
+#: inc/customizer/options.php:612
+msgid "Layout & Colors"
+msgstr ""
+
+#: inc/customizer/options.php:616
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/options.php:617
+msgid "Global link color."
+msgstr ""
+
+#: inc/customizer/options.php:624
+msgid "Link Hover"
+msgstr ""
+
+#: inc/customizer/options.php:625
+msgid "Global link hover color."
+msgstr ""
+
+#: inc/customizer/options.php:632
+msgid "Link Focus"
+msgstr ""
+
+#: inc/customizer/options.php:633
+msgid "Global link focus color."
+msgstr ""
+
+#: inc/customizer/options.php:640
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/options.php:641
+msgid "Theme primary color."
+msgstr ""
+
+#: inc/customizer/options.php:648
+msgid "Primary Darker Color"
+msgstr ""
+
+#: inc/customizer/options.php:649
+msgid "Theme primary darker color."
+msgstr ""
+
+#: inc/customizer/options.php:656
+msgid "Primary Light Color"
+msgstr ""
+
+#: inc/customizer/options.php:657
+msgid "Theme primary light color."
+msgstr ""
+
+#: inc/customizer/options.php:664
+msgid "Primary Text"
+msgstr ""
+
+#: inc/customizer/options.php:665 inc/customizer/options.php:673
+msgid "Theme primary text color."
+msgstr ""
+
+#: inc/customizer/options.php:672
+msgid "Primary Text Hover"
+msgstr ""
+
+#: inc/customizer/options.php:680
+msgid "Primary Link"
+msgstr ""
+
+#: inc/customizer/options.php:681
+msgid "Theme primary link color."
+msgstr ""
+
+#: inc/customizer/options.php:688
+msgid "Primary Link Hover"
+msgstr ""
+
+#: inc/customizer/options.php:689
+msgid "Theme primary link hover color."
+msgstr ""
+
+#: inc/customizer/options.php:696
+msgid "Primary Link Focus Color"
+msgstr ""
+
+#: inc/customizer/options.php:697
+msgid "Theme primary link focus color."
+msgstr ""
+
+#: inc/customizer/options.php:704
+msgid "Meta Link Color"
+msgstr ""
+
+#: inc/customizer/options.php:705
+msgid "Theme meta link color."
+msgstr ""
+
+#: inc/customizer/options.php:712
+msgid "Meta Link Hover Color"
+msgstr ""
+
+#: inc/customizer/options.php:713
+msgid "Theme meta link hover color."
+msgstr ""
+
+#: inc/customizer/options.php:722
+msgid "Footer Background"
+msgstr ""
+
+#: inc/customizer/options.php:723
+msgid "Footer background color."
+msgstr ""
+
+#: inc/customizer/options.php:730
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer/options.php:731
+msgid "Theme footer text color."
+msgstr ""
+
+#: inc/customizer/options.php:738
+msgid "Footer Text Hover"
+msgstr ""
+
+#: inc/customizer/options.php:739
+msgid "Theme footer text hover color."
+msgstr ""
+
+#: inc/customizer/options.php:746
+msgid "Footer Link"
+msgstr ""
+
+#: inc/customizer/options.php:747
+msgid "Theme footer link color."
+msgstr ""
+
+#: inc/customizer/options.php:754
+msgid "Footer Link Hover"
+msgstr ""
+
+#: inc/customizer/options.php:755
+msgid "Theme footer link hover color."
+msgstr ""
+
+#: inc/customizer/options.php:762
+msgid "Footer Link Focus Color"
+msgstr ""
+
+#: inc/customizer/options.php:763
+msgid "Theme footer link focus color."
+msgstr ""
+
+#: inc/customizer/options.php:773
+msgid "Miscellaneous"
+msgstr ""
+
+#: inc/customizer/options.php:778
+msgid "Disable Sidebar Text"
+msgstr ""
+
+#: inc/customizer/options.php:779
+msgid "Disable text on menu sidebar."
+msgstr ""
+
+#: inc/customizer/options.php:790
+msgid "Disable Tracking"
+msgstr ""
+
+#: inc/customizer/options.php:791
+msgid "Disable popular post tracking."
+msgstr ""
+
+#: inc/customizer/options.php:802
+msgid "Remove AMP & Wordpress Generator"
+msgstr ""
+
+#: inc/customizer/options.php:803
+msgid "Remove AMP & WordPress meta generator."
+msgstr ""
+
+#: inc/customizer/options.php:814
+msgid "Rank Math Disable Credit"
+msgstr ""
+
+#: inc/customizer/options.php:815
+msgid "Disable rank math credits."
+msgstr ""
+
+#: inc/customizer/options.php:826
+msgid "Enable Comment"
+msgstr ""
+
+#: inc/customizer/options.php:827
+msgid "Enable post or page comment."
+msgstr ""
+
+#: inc/customizer/options.php:834
+msgid "Default Use Facebook"
+msgstr ""
+
+#: inc/customizer/options.php:835
+msgid "Page Use Facebook"
+msgstr ""
+
+#: inc/customizer/options.php:836
+msgid "Page Only Use Facebook"
+msgstr ""
+
+#: inc/customizer/options.php:837
+msgid "Disable All Comments"
+msgstr ""
+
+#: inc/customizer/options.php:841
+msgid "Facebook Comment APP ID"
+msgstr ""
+
+#: inc/customizer/options.php:842
+msgid "Facebook APP ID for comments."
+msgstr ""
+
+#: inc/customizer/options.php:849
+msgid "Facebook APP ID Insertion"
+msgstr ""
+
+#: inc/customizer/options.php:850
+msgid "Insert Facebook APP ID if you not yet implement it."
+msgstr ""
+
+#: inc/customizer/options.php:861
+msgid "Facebook Comment To Show"
+msgstr ""
+
+#: inc/customizer/options.php:862
+msgid "How many facebook comment to show."
+msgstr ""
+
+#: inc/hooks/check.php:11
+#, php-format
+msgid "Please install %s and activate plugin to make theme %s running properly."
+msgstr ""
+
+#: inc/hooks/check.php:16
+#, php-format
+msgid "Click %s to install %s plugin."
+msgstr ""
+
+#: inc/hooks/check.php:23 inc/hooks/check.php:49 inc/hooks/check.php:75
+msgid "here"
+msgstr ""
+
+#: inc/hooks/check.php:37
+#, php-format
+msgid "Please activate %s plugin to make theme %s running properly."
+msgstr ""
+
+#: inc/hooks/check.php:42
+#, php-format
+msgid "Click %s to activate %s plugin."
+msgstr ""
+
+#: inc/hooks/check.php:63
+#, php-format
+msgid "Please set as standard mode on %s plugin to make theme %s running properly."
+msgstr ""
+
+#: inc/hooks/check.php:71
+#, php-format
+msgid "Click %s to change %s plugin setting."
+msgstr ""
+
+#: inc/hooks/components.php:195
+msgid "Previous"
+msgstr ""
+
+#: inc/hooks/components.php:206
+msgid "Next"
+msgstr ""
+
+#: inc/hooks/components.php:220 templates/site/site-mobile-search.php:55
+msgid "Loading ..."
+msgstr ""
+
+#: inc/hooks/customizer.php:15
+msgid "Law Library"
+msgstr ""
+
+#: inc/hooks/customizer.php:16
+msgid "Law Library Theme Settings"
+msgstr ""
+
+#: inc/hooks/customizer.php:35
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/hooks/customizer.php:43 inc/hooks/customizer.php:48
+msgid "Select Logo"
+msgstr ""
+
+#: inc/hooks/customizer.php:44
+msgid "Change Logo"
+msgstr ""
+
+#: inc/hooks/customizer.php:45
+msgid "Remove"
+msgstr ""
+
+#: inc/hooks/customizer.php:47
+msgid "No Logo Selected"
+msgstr ""
+
+#: inc/hooks/customizer.php:49
+msgid "Choose Logo"
+msgstr ""
+
+#: inc/hooks/menu-icon.php:11
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/hooks/menu-icon.php:16
+msgid "SELECT ICON"
+msgstr ""
+
+#: inc/hooks/menu-icon.php:27
+msgid "please select an icon"
+msgstr ""
+
+#: inc/hooks/menu.php:91 inc/hooks/menu.php:129
+msgid "Close"
+msgstr ""
+
+#: inc/hooks/menu.php:103
+msgid "Open"
+msgstr ""
+
+#: inc/hooks/setup.php:38
+msgid "Top Menu"
+msgstr ""
+
+#: inc/hooks/setup.php:39
+msgid "Main Menu"
+msgstr ""
+
+#: inc/hooks/setup.php:40
+msgid "Sidebar Menu"
+msgstr ""
+
+#: inc/hooks/setup.php:41
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/hooks/setup.php:42
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/hooks/setup.php:95
+msgid "Home Sidebar"
+msgstr ""
+
+#: inc/hooks/setup.php:103
+msgid "Archive Sidebar"
+msgstr ""
+
+#: inc/hooks/setup.php:111
+msgid "Search Sidebar"
+msgstr ""
+
+#: inc/hooks/setup.php:119
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/hooks/setup.php:127
+msgid "Post Sidebar"
+msgstr ""
+
+#: inc/hooks/setup.php:135
+msgid "Below Post"
+msgstr ""
+
+#: inc/hooks/setup.php:143
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/hooks/setup.php:151
+msgid "404 Sidebar"
+msgstr ""
+
+#: inc/hooks/setup.php:159
+msgid "Footer Area"
+msgstr ""
+
+#: inc/logic.php:174
+msgid "Trillion"
+msgstr ""
+
+#: inc/logic.php:178
+msgid "Billion"
+msgstr ""
+
+#: inc/logic.php:182
+msgid "Million"
+msgstr ""
+
+#: inc/logic.php:186
+msgid "Thousand"
+msgstr ""
+
+#: templates/components/search-empty.php:11
+msgid "Entry Not Found."
+msgstr ""
+
+#: templates/components/search-error.php:10
+#: templates/site/site-mobile-search.php:97
+msgid "There was an error while getting data."
+msgstr ""
+
+#: templates/partials/archive-header.php:21
+#, php-format
+msgid "Search Results For: %s"
+msgstr ""
+
+#: templates/partials/breadcrumbs.php:26
+msgid "Home"
+msgstr ""
+
+#: templates/partials/entries/entry-author-bio.php:29
+#, php-format
+msgid "Show all post by: %s"
+msgstr ""
+
+#: templates/partials/entries/entry-author-bio.php:47
+msgid "Website"
+msgstr ""
+
+#: templates/partials/entries/entry-content.php:14
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: templates/partials/entries/entry-content.php:20
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: templates/partials/entries/entry-header.php:20
+msgid "404 Page Not Found"
+msgstr ""
+
+#: templates/partials/entries/entry-meta.php:49
+#, php-format
+msgid "See all post by: %s"
+msgstr ""
+
+#: templates/partials/entries/entry-tags.php:16
+msgid "Tags:"
+msgstr ""

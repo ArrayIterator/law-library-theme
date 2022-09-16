@@ -1,0 +1,318 @@
+/**
+ * BASE
+ */
+.edit-post-visual-editor {
+    font: var(--font-size) var(--font-family);
+    color: var(--color);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.edit-post-visual-editor hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+}
+
+.edit-post-visual-editor hr:not([size]) {
+    height: 1px;
+}
+
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.edit-post-visual-editor h1 {
+    font-size: 2.5em;
+}
+.edit-post-visual-editor h2 {
+    font-size: 2em;
+}
+.edit-post-visual-editor h3 {
+    font-size: 1.75em;
+}
+.edit-post-visual-editor h4 {
+    font-size: 1.5em;
+}
+.edit-post-visual-editor h5 {
+    font-size: 1.25em;
+}
+
+.edit-post-visual-editor h6 {
+    font-size: 1em;
+}
+
+.edit-post-visual-editor p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.edit-post-visual-editor abbr[title],
+.edit-post-visual-editor abbr[data-bs-original-title] {
+    -webkit-text-decoration: underline dotted;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration: underline dotted;
+    cursor: help;
+    text-decoration-skip-ink: none;
+}
+
+.edit-post-visual-editor address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+}
+
+.edit-post-visual-editor ol,
+.edit-post-visual-editor ul {
+    padding-left: 2rem;
+}
+
+.edit-post-visual-editor ol,
+.edit-post-visual-editor ul,
+.edit-post-visual-editor dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.edit-post-visual-editor ol ol,
+.edit-post-visual-editor ul ul,
+.edit-post-visual-editor ol ul,
+.edit-post-visual-editor ul ol {
+    margin-bottom: 0;
+}
+
+.edit-post-visual-editor dt {
+    font-weight: 700;
+}
+
+.edit-post-visual-editor dd {
+    margin-bottom: 0.5rem;
+    margin-left: 0;
+}
+
+.edit-post-visual-editor blockquote {
+    margin: 0 0 1rem;
+}
+
+.edit-post-visual-editor b,
+.edit-post-visual-editor strong {
+    font-weight: bolder;
+}
+
+.edit-post-visual-editor small {
+    font-size: 0.875em;
+}
+
+.edit-post-visual-editor mark {
+    padding: 0.2em;
+    background-color: var(--light-gray);
+}
+
+.edit-post-visual-editor sub,
+.edit-post-visual-editor sup {
+    position: relative;
+    font-size: 0.75em;
+    line-height: 0;
+    vertical-align: baseline;
+}
+.edit-post-visual-editor sub {
+    bottom: -0.25em;
+}
+.edit-post-visual-editor sup {
+    top: -0.5em;
+}
+
+.edit-post-visual-editor a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+.edit-post-visual-editor a:hover {
+    color: var(--link-hover-color);
+}
+
+.edit-post-visual-editor a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.edit-post-visual-editor pre,
+.edit-post-visual-editor code,
+.edit-post-visual-editor kbd,
+.edit-post-visual-editor samp {
+    font-family: var(--font-monospace);
+    font-size: 1em;
+    direction: ltr /* rtl:ignore */;
+    unicode-bidi: bidi-override;
+}
+.edit-post-visual-editor pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+    font-size: 0.875em;
+}
+.edit-post-visual-editor pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+}
+.edit-post-visual-editor code {
+    font-size: 0.875em;
+    color: var(--code);
+    word-wrap: break-word;
+}
+.edit-post-visual-editor a > code {
+    color: inherit;
+}
+
+.edit-post-visual-editor kbd {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.875em;
+    color: var(--light-gray);
+    background-color: var(--grey);
+    border-radius: 0.2rem;
+}
+
+.edit-post-visual-editor kbd kbd {
+    padding: 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.edit-post-visual-editor figure {
+    margin: 0 0 1rem;
+}
+
+.edit-post-visual-editor img,
+.edit-post-visual-editor svg {
+    vertical-align: middle;
+}
+
+.edit-post-visual-editor table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+.edit-post-visual-editor caption {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #6c757d;
+    text-align: left;
+}
+
+.edit-post-visual-editor th {
+    text-align: inherit;
+    text-align: -webkit-match-parent;
+}
+
+.edit-post-visual-editor thead,
+.edit-post-visual-editor tbody,
+.edit-post-visual-editor tfoot,
+.edit-post-visual-editor tr,
+.edit-post-visual-editor td,
+.edit-post-visual-editor th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+.edit-post-visual-editor label {
+    display: inline-block;
+}
+
+.edit-post-visual-editor button {
+    border-radius: 0;
+}
+
+.edit-post-visual-editor button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+.edit-post-visual-editor input,
+.edit-post-visual-editor button,
+.edit-post-visual-editor select,
+.edit-post-visual-editor optgroup,
+.edit-post-visual-editor textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.edit-post-visual-editor button,
+.edit-post-visual-editor select {
+    text-transform: none;
+}
+
+.edit-post-visual-editor [role=button] {
+    cursor: pointer;
+}
+
+.edit-post-visual-editor select {
+    word-wrap: normal;
+}
+.edit-post-visual-editor select:disabled {
+    opacity: 1;
+}
+
+.edit-post-visual-editor [list]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.edit-post-visual-editor button,
+.edit-post-visual-editor [type=button],
+.edit-post-visual-editor [type=reset],
+.edit-post-visual-editor [type=submit] {
+    -webkit-appearance: button;
+}
+.edit-post-visual-editor button:not(:disabled),
+.edit-post-visual-editor [type=button]:not(:disabled),
+.edit-post-visual-editor [type=reset]:not(:disabled),
+.edit-post-visual-editor [type=submit]:not(:disabled) {
+    cursor: pointer;
+}
+
+.edit-post-visual-editor::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+
+.edit-post-visual-editor textarea {
+    resize: vertical;
+}
+
+.edit-post-visual-editor fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.edit-post-visual-editor legend {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    font-size: calc(1.275rem + 0.3vw);
+    line-height: inherit;
+}
+
+/**
+ * AMP
+ */
+.edit-post-visual-editor amp-img,
+.edit-post-visual-editor img {
+    max-width: 100%;
+}
