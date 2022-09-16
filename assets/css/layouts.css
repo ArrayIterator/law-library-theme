@@ -995,6 +995,7 @@ amp-mega-menu nav {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    line-height: normal;
 }
 .mobile-navigation-menu li [data-target="#search-section"] {
     border:0;
