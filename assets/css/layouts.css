@@ -1162,6 +1162,7 @@ amp-mega-menu nav {
 .search-entry-meta {
     font-size: .8em;
     margin-top: 1em;
+    line-height: 1.9;
 }
 .search-entry-meta .primary-category-link {
     padding: .3em .5em;
