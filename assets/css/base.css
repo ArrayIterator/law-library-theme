@@ -1,12 +1,22 @@
 /**
  * BASE
  */
+html *,
+html *::after,
+html *::before {
+    box-sizing: border-box;
+}
+
 body {
-    font: var(--font-size) var(--font-family);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
     color: var(--color);
     margin: 0;
     padding: 0;
-    text-align: left;
+    font-weight: var(--font-weight);
+    text-align: var(--text-align, inherit);
+    background-color: var(--bg-color);
+    line-height: var(--line-height);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -139,10 +149,14 @@ sup {
 
 a {
     color: var(--link-color);
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    text-decoration: none;
 }
 a:hover {
     color: var(--link-hover-color);
+}
+a[data-link] {
+    cursor: pointer;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {

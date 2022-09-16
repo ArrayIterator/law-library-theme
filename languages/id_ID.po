@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tray Digita\n"
 "POT-Creation-Date: 2022-09-16 14:40+0700\n"
-"PO-Revision-Date: 2022-09-16 15:19+0700\n"
+"PO-Revision-Date: 2022-09-16 20:16+0700\n"
 "Last-Translator: \n"
 "Language-Team: Tray Digita\n"
 "Language: id\n"
@@ -598,49 +598,51 @@ msgstr "Kecualikan Halaman Dari Pencarian"
 
 #: inc/customizer/options.php:496
 msgid "Enable post type page from search result."
-msgstr ""
+msgstr "Aktifkan jenis halaman dari hasil pencarian."
 
 #: inc/customizer/options.php:507
 msgid "Search Exclude Categories"
-msgstr ""
+msgstr "Kecualikan Kategori Pencarian"
 
 #: inc/customizer/options.php:508 inc/customizer/options.php:517
 msgid "Exclude certain categories to prevent show on ajax search."
-msgstr ""
+msgstr "Kecualikan kategori tertentu untuk mencegah tampil di pencarian ajax."
 
 #: inc/customizer/options.php:516
 msgid "Mobile Ajax Exclude Categories"
-msgstr ""
+msgstr "Kategori Pengecualian Ajax Mobile"
 
 #: inc/customizer/options.php:525
 msgid "Number First Posts"
-msgstr ""
+msgstr "Nomor Untuk Postingan Awal"
 
 #: inc/customizer/options.php:526
 msgid "How much list to show on first request."
-msgstr ""
+msgstr "Berapa banyak daftar yang akan ditampilkan pada permintaan pertama."
 
 #: inc/customizer/options.php:541
 msgid "Number To Show Posts"
-msgstr ""
+msgstr "Nomor Untuk Menampilkan Postingan"
 
 #: inc/customizer/options.php:558
 msgid "Show date on ajax search."
-msgstr ""
+msgstr "Tampilkan tanggal pada pencarian ajax."
 
 #: inc/customizer/options.php:570
 msgid "Show thumbnail on ajax search."
-msgstr ""
+msgstr "Tampilkan gambar unggulan pada pencarian ajax."
 
 #: inc/customizer/options.php:597
 msgid "Enable Search Microdata"
-msgstr ""
+msgstr "Aktifkan Penelusuran Microdata"
 
 #: inc/customizer/options.php:598
 msgid ""
 "Enable microdata search on single page. If rank math exists, will handle by "
 "rank math."
 msgstr ""
+"Aktifkan pencarian microdata pada satu halaman. Jika terdapat rank math, "
+"akan ditangani dengan rank math."
 
 #: inc/customizer/options.php:612
 msgid "Layout & Colors"
@@ -688,103 +690,103 @@ msgstr "Warna utama tema lebih gelap."
 
 #: inc/customizer/options.php:656
 msgid "Primary Light Color"
-msgstr ""
+msgstr "Warna Utama Cerah"
 
 #: inc/customizer/options.php:657
 msgid "Theme primary light color."
-msgstr ""
+msgstr "Warna utama cerah untuk tema."
 
 #: inc/customizer/options.php:664
 msgid "Primary Text"
-msgstr ""
+msgstr "Teks Utama"
 
 #: inc/customizer/options.php:665 inc/customizer/options.php:673
 msgid "Theme primary text color."
-msgstr ""
+msgstr "Warna utama untuk teks tema."
 
 #: inc/customizer/options.php:672
 msgid "Primary Text Hover"
-msgstr ""
+msgstr "Teks Utama Hover"
 
 #: inc/customizer/options.php:680
 msgid "Primary Link"
-msgstr ""
+msgstr "Tautan Utama"
 
 #: inc/customizer/options.php:681
 msgid "Theme primary link color."
-msgstr ""
+msgstr "Warna utama untuk tautan tema."
 
 #: inc/customizer/options.php:688
 msgid "Primary Link Hover"
-msgstr ""
+msgstr "Tautan Utama Hover"
 
 #: inc/customizer/options.php:689
 msgid "Theme primary link hover color."
-msgstr ""
+msgstr "Warna utama untuk hover tautan tema."
 
 #: inc/customizer/options.php:696
 msgid "Primary Link Focus Color"
-msgstr ""
+msgstr "Warna Utama Tautan Fokus"
 
 #: inc/customizer/options.php:697
 msgid "Theme primary link focus color."
-msgstr ""
+msgstr "Warna utama untuk tautan fokus."
 
 #: inc/customizer/options.php:704
 msgid "Meta Link Color"
-msgstr ""
+msgstr "Warna Tautan Meta"
 
 #: inc/customizer/options.php:705
 msgid "Theme meta link color."
-msgstr ""
+msgstr "Warna meta tautan tema."
 
 #: inc/customizer/options.php:712
 msgid "Meta Link Hover Color"
-msgstr ""
+msgstr "Warna meta tautan hover tema"
 
 #: inc/customizer/options.php:713
 msgid "Theme meta link hover color."
-msgstr ""
+msgstr "Warna meta tautan hover tema."
 
 #: inc/customizer/options.php:722
 msgid "Footer Background"
-msgstr ""
+msgstr "Latar Belakang Footer"
 
 #: inc/customizer/options.php:723
 msgid "Footer background color."
-msgstr ""
+msgstr "Warna latar belakang footer."
 
 #: inc/customizer/options.php:730
 msgid "Footer Text"
-msgstr ""
+msgstr "Teks Footer"
 
 #: inc/customizer/options.php:731
 msgid "Theme footer text color."
-msgstr ""
+msgstr "Warna teks footer tema."
 
 #: inc/customizer/options.php:738
 msgid "Footer Text Hover"
-msgstr ""
+msgstr "Teks Hover Footer"
 
 #: inc/customizer/options.php:739
 msgid "Theme footer text hover color."
-msgstr ""
+msgstr "Warna teks footer hover tema."
 
 #: inc/customizer/options.php:746
 msgid "Footer Link"
-msgstr ""
+msgstr "Tautan Footer"
 
 #: inc/customizer/options.php:747
 msgid "Theme footer link color."
-msgstr ""
+msgstr "Warna tautan footer tema."
 
 #: inc/customizer/options.php:754
 msgid "Footer Link Hover"
-msgstr ""
+msgstr "Tautan Hover Footer"
 
 #: inc/customizer/options.php:755
 msgid "Theme footer link hover color."
-msgstr ""
+msgstr "Warna tautan hover footer tema."
 
 #: inc/customizer/options.php:762
 msgid "Footer Link Focus Color"
@@ -832,35 +834,35 @@ msgstr "Nonaktifkan atribusi rank math."
 
 #: inc/customizer/options.php:826
 msgid "Enable Comment"
-msgstr ""
+msgstr "Aktifkan Komentar"
 
 #: inc/customizer/options.php:827
 msgid "Enable post or page comment."
-msgstr ""
+msgstr "Aktifkan komentar artikel atau halaman."
 
 #: inc/customizer/options.php:834
 msgid "Default Use Facebook"
-msgstr ""
+msgstr "Default Gunakan Facebook"
 
 #: inc/customizer/options.php:835
 msgid "Page Use Facebook"
-msgstr ""
+msgstr "Page Use Facebook"
 
 #: inc/customizer/options.php:836
 msgid "Page Only Use Facebook"
-msgstr ""
+msgstr "Hanya Halaman Gunakan Facebook"
 
 #: inc/customizer/options.php:837
 msgid "Disable All Comments"
-msgstr ""
+msgstr "Nonaktifkan Semua Komentar"
 
 #: inc/customizer/options.php:841
 msgid "Facebook Comment APP ID"
-msgstr ""
+msgstr "APP ID Komentar Facebook"
 
 #: inc/customizer/options.php:842
 msgid "Facebook APP ID for comments."
-msgstr ""
+msgstr "Facebook APP ID untuk komentar."
 
 #: inc/customizer/options.php:849
 msgid "Facebook APP ID Insertion"

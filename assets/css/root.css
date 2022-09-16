@@ -1,4 +1,8 @@
 :root {
+    --text-align: inherit;
+    --bg-color: #fff;
+    --line-height: 1.4;
+    --font-weight: 400;
     --gutter-spaced: 1rem;
     --gutter-x: 0.75rem;
     --gutter-x-min: -0.75rem;

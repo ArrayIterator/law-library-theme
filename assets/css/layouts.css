@@ -20,17 +20,6 @@
     }
 }
 
-html *,
-html *::after,
-html *::before {
-    box-sizing: border-box;
-}
-a[data-link] {
-    cursor: pointer;
-}
-a {
-    text-decoration: none;
-}
 /* CUSTOM */
 html body .sticky-position {
     position: sticky;
@@ -1306,6 +1295,10 @@ amp-mega-menu nav {
     word-break: break-word;
     text-overflow: ellipsis;
     font-weight: 400;
+}
+.law-lib-block-thumbnail img,
+.entry-thumbnail img {
+    border-radius: 5px;
 }
 
 .singular-header .entry-title {

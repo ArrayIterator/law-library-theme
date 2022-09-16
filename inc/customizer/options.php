@@ -810,9 +810,21 @@ return [
                     'no'  => __('No', 'law-lib'),
                 ],
             ],
-            'rank_math_sitemap' => [
+            'rank_math_sitemap_credit' => [
                 'label'       => __( 'Rank Math Disable Credit', 'law-lib' ),
                 'description' => __( 'Disable rank math credits.', 'law-lib' ),
+                'priority'    => 10,
+                'transport'   => 'postMessage',
+                'type'        => 'select',
+                'default'     => 'yes',
+                'choices'     => [
+                    'yes' => __('Yes', 'law-lib'),
+                    'no'  => __('No', 'law-lib'),
+                ],
+            ],
+            'disable_w3tc_comment_html_credit' => [
+                'label'       => __( 'W3 Total Cache Disable Credit', 'law-lib' ),
+                'description' => __( 'Disable W3 Total Cache credit.', 'law-lib' ),
                 'priority'    => 10,
                 'transport'   => 'postMessage',
                 'type'        => 'select',

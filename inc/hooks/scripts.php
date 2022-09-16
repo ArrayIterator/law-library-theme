@@ -10,7 +10,7 @@ if (!function_exists('law_lib_scripts_register')) {
         wp_register_style('law-lib-root', get_theme_file_uri('assets/css/root.css'));
         wp_register_style('law-lib-base', get_theme_file_uri('assets/css/base.css'));
         wp_register_style('law-lib-editor', get_theme_file_uri('assets/css/editor.css'));
-        wp_register_style('law-lib-layouts', get_theme_file_uri('assets/css/layouts.css'), ['law-lib-base']);
+        wp_register_style('law-lib-layouts', get_theme_file_uri('assets/css/layouts.css'), []);
         wp_register_style('law-lib-repaint', get_theme_file_uri('assets/css/repaint.css'), ['law-lib-layouts']);
         wp_register_style('law-lib-blocks', get_theme_file_uri('assets/css/blocks.css'), ['law-lib-repaint']);
          wp_register_style('law-lib-fontello', get_theme_file_uri('assets/fontello/css/fontello.css'));

@@ -16,7 +16,7 @@
 .law-lib-block-wrapper .law-lib-block-list {
     list-style: none;
     display: block;
-    padding: .5rem 0;
+    /*padding: .5rem 0;*/
     padding: 0;
     vertical-align: top;
 }
@@ -204,8 +204,6 @@ amp-selector.carousel-preview {
     bottom: 0;
     max-width: 100%;
     padding: var(--gutter-spaced);
-    position: absolute;
-    bottom: 0;
     left: 0;
     color: var(--primary-text-color, #fff);
     width: 100%;

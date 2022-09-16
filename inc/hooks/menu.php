@@ -82,7 +82,6 @@ HTML;
 
 add_filter( 'wp_nav_menu_args', 'law_lib_menu_sidebar_args' );
 
-
 if (!class_exists('law_lib_menu_element_nav_menu_close_text')) {
     function law_lib_menu_element_nav_menu_close_text() : string
     {
@@ -106,7 +105,6 @@ if (!class_exists('law_lib_menu_element_nav_menu_open_text')) {
 }
 
 add_filter('nav_menu_open_text', 'law_lib_menu_element_nav_menu_open_text');
-
 
 if (!function_exists('law_lib_menu_element_sidebar_first_list')) {
     function law_lib_menu_element_sidebar_first_list($item, $args)

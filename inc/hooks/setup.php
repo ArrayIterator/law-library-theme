@@ -11,11 +11,11 @@ if (!function_exists('law_lib_setup_theme')) {
         add_theme_support( 'responsive-embeds' );
         add_theme_support( 'widgets-block-editor' );
         add_theme_support( 'widgets' );
-        add_theme_support('amp');
-        add_theme_support('automatic-feed-links');
-        add_theme_support('title-tag');
-        add_theme_support('post-thumbnails');
-        add_theme_support('widgets');
+        add_theme_support( 'amp' );
+        add_theme_support( 'automatic-feed-links' );
+        add_theme_support( 'title-tag' );
+        add_theme_support( 'post-thumbnails' );
+        add_theme_support( 'widgets' );
         add_theme_support( 'custom-mobile-logo', [
             'width'                => 100,
             'height'               => 30,

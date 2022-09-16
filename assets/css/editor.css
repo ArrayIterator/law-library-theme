@@ -2,15 +2,28 @@
  * BASE
  */
 .edit-post-visual-editor {
-    font: var(--font-size) var(--font-family);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
     color: var(--color);
     margin: 0;
     padding: 0;
-    text-align: left;
+    font-weight: var(--font-weight);
+    text-align: var(--text-align, inherit);
+    background-color: var(--bg-color);
+    line-height: var(--line-height);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.edit-post-visual-editor,
+.edit-post-visual-editor *,
+.edit-post-visual-editor *::after,
+.edit-post-visual-editor *::before {
+    box-sizing: border-box;
+}
 
+.edit-post-visual-editor a {
+    text-decoration: none;
+}
 .edit-post-visual-editor hr {
     margin: 1rem 0;
     color: inherit;

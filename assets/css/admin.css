@@ -28,7 +28,7 @@
 .law-lib-icon-wrapper .law-lib-icon-context {
     font-size: 30px;
     cursor:pointer;
-    flex: 0 1 calc(20% - 7.5px);
+    flex: 0 1 calc(20% - calc(15px / 2));
     padding: 5px;
     margin: 7px;
     color: #fff;
