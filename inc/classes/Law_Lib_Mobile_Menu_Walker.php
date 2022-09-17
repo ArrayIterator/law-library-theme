@@ -25,13 +25,12 @@ if (!class_exists('Law_Lib_Mobile_Menu_Walker')) {
                         $item->classes = [];
                     }
                     $item->current = true;
-                    $classes[]      = 'current-menu-item';
+                    $item->classes[]      = 'current-menu-item';
                     if ($item->object === 'page') {
                         $item->classes[] = 'current_page_item';
                     }
                 }
             }
-
             if ($menu && !has_nav_menu($menu)) {
                 _wp_menu_item_classes_by_context( $elements );
             }
