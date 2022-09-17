@@ -1072,6 +1072,7 @@ amp-mega-menu nav {
     padding: 0 var(--gutter-x) 60px var(--gutter-x);
     display: block;
     height: 100%;
+    margin-bottom: 60px;
 }
 .search-form-section {
     position: sticky;
