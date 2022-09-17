@@ -1071,7 +1071,7 @@ amp-mega-menu nav {
 .search-section-container {
     padding: 0 var(--gutter-x) 60px var(--gutter-x);
     display: block;
-    height: 100%;
+    height: calc(100% - 60px);
     margin-bottom: 60px;
 }
 .search-form-section {
