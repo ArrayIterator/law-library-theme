@@ -3,7 +3,7 @@ if (!defined('ABSPATH')) :
     return;
 endif;
 $_has_mobile_menu = has_nav_menu('mobile-menu');
-$_has_mobile_menu = $_has_mobile_menu ? ' has-mobile-menu' : '';
+$_has_mobile_menu = $_has_mobile_menu ? 'has-mobile-menu' : '';
 $_has_mobile_menu = "site wrap $_has_mobile_menu";
 ?>
 <!DOCTYPE html>
