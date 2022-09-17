@@ -173,23 +173,6 @@ if (!function_exists('law_lib_menu_element_sidebar_after_menu')) {
 if (!function_exists('law_lib_menu_nav_menu_link_attributes_mobile')) {
     function law_lib_menu_nav_menu_link_attributes_mobile($atts, $item, $args, $depth)
     {
-        global $_queried_object_id;
-        if ($_queried_object_id
-            && ($args->menu??null) === 'mobile-menu'
-            && $item instanceof WP_Post
-            && isset($item->classes, $item->object_id)
-        ) {
-            $query_object_id = (int) $_queried_object_id;
-            $object_id = (int) $item->object_id;
-            if ($query_object_id === $object_id) {
-                $item->current = true;
-                $item->classes[] = 'current-menu-item';
-                if ($item->object === 'page') {
-                    $item->classes[] = 'current_page_item';
-                }
-            }
-        }
-
         if ($depth != 0 || ($args->menu??null) !== 'mobile-menu'
             || (($atts['href']??null) != '#search-section' && ($atts['data-target']??null) != '#search-section')
         ) {
@@ -200,6 +183,7 @@ if (!function_exists('law_lib_menu_nav_menu_link_attributes_mobile')) {
     }
 }
 add_filter( 'nav_menu_link_attributes', 'law_lib_menu_nav_menu_link_attributes_mobile', 10, 4);
+
 //if (!function_exists('law_lib_menu_wp_nav_menu_container_allowedtags')) {
 //    function law_lib_menu_wp_nav_menu_container_allowedtags($tags)
 //    {

@@ -10,6 +10,28 @@ if (!class_exists('Law_Lib_Mobile_Menu_Walker')) {
         public function walk($elements, $max_depth, ...$args)
         {
             $menu = $args[0]->menu??($args[0]['menu']??'');
+            global $_queried_object_id;
+            if ($menu && $_queried_object_id) {
+                $query_object_id = (int) $_queried_object_id;
+                foreach ((array) $elements as $item) {
+                    if (!isset($item->object_id) || !isset($item->object)) {
+                        continue;
+                    }
+                    $object_id = (int) $item->object_id;
+                    if ($query_object_id !== $object_id) {
+                        continue;
+                    }
+                    if (!isset($item->classes)) {
+                        $item->classes = [];
+                    }
+                    $item->current = true;
+                    $classes[]      = 'current-menu-item';
+                    if ($item->object === 'page') {
+                        $item->classes[] = 'current_page_item';
+                    }
+                }
+            }
+
             if ($menu && !has_nav_menu($menu)) {
                 _wp_menu_item_classes_by_context( $elements );
             }
