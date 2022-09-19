@@ -1299,6 +1299,7 @@ amp-mega-menu nav {
     text-overflow: ellipsis;
     font-weight: 400;
 }
+.search-entry-thumbnail img,
 .law-lib-block-thumbnail img,
 .entry-thumbnail img {
     border-radius: 5px;
