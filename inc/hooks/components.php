@@ -232,10 +232,16 @@ if (!function_exists('law_lib_components_after_loop')) {
             'amp-request' => $is_home ? 'blog' : 'archive',
         ];
         global $wp_query;
+        $found = true;
         if ($wp_query->is_search()) {
             $_args['search'] = get_search_query(false);
         } elseif ($wp_query->is_tag()) {
-            $_args['tags'] = $wp_query->get('tag');
+            $__tag = get_term_by('slug', $wp_query->get('tag'),'post_tag');
+            if ($__tag && isset($__tag->term_id)) {
+                $_args['tags'] = $__tag->term_id;
+            } else {
+                $found = false;
+            }
         } elseif ($wp_query->is_category()) {
             $_args['categories'] = $wp_query->get('cat');
             $_args['include_children'] = true;
@@ -257,7 +263,7 @@ if (!function_exists('law_lib_components_after_loop')) {
         $page = $wp_query->get('page')??1;
         $page = $page < 1 ? 1 : $page;
         $post_count = $wp_query->post_count * $page;
-        if ($post_count < $wp_query->found_posts) :
+        if ($found && $post_count < $wp_query->found_posts) :
     ?>
         <div class="looping-load-more-wrapper">
             <button class="button-loop-load-more" data-offset='<?= $post_count;?>' data-loop='true' data-rest-url='<?= esc_attr($_rest_url);?>' data-button="load-more" role="button" data-loading="<?= esc_attr($_loading_text);?>" aria-label="<?php esc_attr_e('Load More', 'law-lib');?>">

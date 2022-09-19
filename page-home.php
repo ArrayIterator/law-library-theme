@@ -89,8 +89,8 @@ if (!$_enable_filtering) {
         <!-- .sidebar-section -->
         <?php do_action('after_sidebar_section', $_sidebar_name);?>
     <?php endif;?>
-<?php endif;?>
 </div>
+<?php endif;?>
 <?php
 
 get_footer();

@@ -150,6 +150,8 @@ amp-carousel:hover .slide amp-img::after {
     border:0;
     outline: 0;
 }
+
+.carousel-content amp-carousel amp-img[aria-selected=true],
 .carousel-content amp-carousel [role="list"] amp-img[selected],
 .carousel-content amp-carousel [role="list"] amp-img:hover {
     filter: grayscale(0);
