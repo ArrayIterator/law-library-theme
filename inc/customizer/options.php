@@ -786,6 +786,18 @@ return [
                     'no'  => __('No', 'law-lib'),
                 ],
             ],
+            'disable_mobile_logo' => [
+                'label'       => __( 'Disable Mobile Logo', 'law-lib' ),
+                'description' => __( 'Disable logo on mobile top menu.', 'law-lib' ),
+                'priority'    => 10,
+                'transport'   => 'postMessage',
+                'type'        => 'select',
+                'default'     => 'no',
+                'choices'     => [
+                    'yes' => __('Yes', 'law-lib'),
+                    'no'  => __('No', 'law-lib'),
+                ],
+            ],
             'disable_tracking' => [
                 'label'       => __( 'Disable Tracking', 'law-lib' ),
                 'description' => __( 'Disable popular post tracking.', 'law-lib' ),

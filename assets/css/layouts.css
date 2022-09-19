@@ -797,7 +797,7 @@ amp-script[class*="-hydrated"] {
     /*padding: 0;*/
 }
 .navigation-top ul.menu > li:first-child {
-    padding-left:1rem;
+    padding-left: 1rem;
 }
 .top-bar ul {
     justify-content: flex-start;

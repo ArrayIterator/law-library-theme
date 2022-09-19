@@ -82,6 +82,7 @@ endif;
             </amp-mega-menu>
         </div>
         <div id="mobile-logo" class="main-logo hide-desktop">
+            <?php if (law_lib_component_option('misc', 'disable_mobile_logo') !== 'yes') :?>
             <div class="main-logo-container">
                 <?php
                 $_mobile_logo      = get_theme_mod( 'custom-mobile-logo' );
@@ -117,8 +118,9 @@ endif;
                 ?>
                 <?php endif;?>
             </div>
+            <?php endif; ?>
         </div>
-        <!-- .main-navigation-menu -->
+        <!-- #mobile-logo -->
         <?php law_lib_component_button_sidebar('sidebar-menu', true, __('Toggle Sidebar', 'law-lib')); ?>
     </div>
     <!-- #main-navigation -->
