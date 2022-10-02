@@ -24,7 +24,7 @@ require_once __DIR__ .'/inc/classes/Law_Lib_Meta_Query.php';
 require_once __DIR__ .'/inc/classes/Amp/Law_Lib_Amp_Component.php';
 require_once __DIR__ .'/inc/classes/Amp/Law_Lib_Amp_Carousel.php';
 require_once __DIR__ .'/inc/classes/Amp/Law_Lib_Amp_Carousel_List.php';
-
+require_once __DIR__ .'/inc/classes/Widgets/Law_Lib_Widget_SpecialHTML.php';
 require_once __DIR__ .'/inc/component.php';
 require_once __DIR__ .'/inc/metadata.php';
 require_once __DIR__ .'/inc/logic.php';
