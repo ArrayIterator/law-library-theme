@@ -10,7 +10,7 @@ class Law_Lib_Widget_SpecialHTML extends \WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'law-lib-html-code',
-			__( 'News Tray HTML Code', 'law-lib' ),
+			__( 'Law Library HTML Code', 'law-lib' ),
 			[
 				'description' => __( 'Special HTML Code', 'law-lib' ),
 			]
