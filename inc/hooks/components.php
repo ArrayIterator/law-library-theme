@@ -448,3 +448,16 @@ if (!function_exists('law_lib_components_after_author_bio')) {
     }
 }
 add_action('after_entry_content', 'law_lib_components_after_author_bio', 0);
+
+if ( ! defined( 'ABSPATH' ) ) {
+	return;
+}
+
+if ( ! function_exists( 'law_lib_components_widget_register' ) ) {
+	function law_lib_components_widget_register() {
+        if (class_exists('Law_Lib_Widget_SpecialHTML')) {
+		    register_widget( Law_Lib_Widget_SpecialHTML ::class );
+        }
+	}
+}
+add_action( 'widgets_init', 'law_lib_components_widget_register' );
