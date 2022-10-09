@@ -8,6 +8,7 @@ $_show_category = (law_lib_component_option('search', 'show_category', 'yes')?:'
 $_show_thumbnails = (law_lib_component_option('search', 'show_thumbnail', 'yes')?:'yes') === 'yes';
 ?>
 <div class="search-entry-search search-entry-found post-id-{{id}}" data-id="{{id}}">
+    <?php if ($_show_thumbnails) : ?>
     <div class="search-entry-thumbnail">
         {{#thumbnail}}
         <a href="{{link}}" class="entry-thumbnail-link">
@@ -15,6 +16,7 @@ $_show_thumbnails = (law_lib_component_option('search', 'show_thumbnail', 'yes')
         </a>
         {{/thumbnail}}
     </div>
+    <?php endif;?>
     <h2 class="search-entry-title">
         <a href="{{link}}" class="search-entry-title-link entry-title-link">{{title.rendered}}</a>
     </h2>
